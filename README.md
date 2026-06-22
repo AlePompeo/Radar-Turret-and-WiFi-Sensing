@@ -1,6 +1,6 @@
-# Radar Turret & WiFi Sensing Glasses
+# Radar Turret
 
-Wearable ESP32 platform for human presence detection in defence scenarios. Fuses a 24 GHz mmWave radar with WiFi Channel State Information (CSI) sensing to detect targets both in line-of-sight and through walls. A continuous-rotation servo turret auto-tracks the highest-threat target, a dual WS2812 LED strip provides a heads-up display and a passive buzzer gives audible range alerts. All sensor data streams in real time to a mobile-friendly web dashboard over WiFi.
+ESP32 platform for human presence detection in defence scenarios. Fuses a 24 GHz mmWave radar with WiFi Channel State Information (CSI) sensing to detect targets both in line-of-sight and through walls. A continuous-rotation servo turret auto-tracks the highest-threat target, a dual WS2812 LED strip provides a heads-up display and a passive buzzer gives audible range alerts. All sensor data streams in real time to a mobile-friendly web dashboard over WiFi.
 
 ---
 
