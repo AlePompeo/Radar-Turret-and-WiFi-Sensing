@@ -1,4 +1,6 @@
-# Radar Turret
+# Radar Turret â€” mmWave Radar + WiFi CSI Presence Sensing (ESP32)
+
+![ESP32](https://img.shields.io/badge/ESP32-Arduino-E7352C?logo=espressif&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-PlatformIO-00599C?logo=cplusplus&logoColor=white) ![Radar](https://img.shields.io/badge/Radar-LD2450%2024%20GHz-8a2be2) ![WiFi CSI](https://img.shields.io/badge/Sensing-WiFi%20CSI-1f6feb) ![License](https://img.shields.io/badge/License-AGPL--3.0-red)
 
 ESP32 platform for human presence detection in defence scenarios. Fuses a 24 GHz mmWave radar with WiFi Channel State Information (CSI) sensing to detect targets both in line-of-sight and through walls. A continuous-rotation servo turret auto-tracks the highest-threat target, a dual WS2812 LED strip provides a heads-up display and a passive buzzer gives audible range alerts. All sensor data streams in real time to a mobile-friendly web dashboard over WiFi.
 
@@ -403,3 +405,13 @@ All parameters are in `config.h`. No recompilation required for trim and mode â€
 | `WEB_PUSH_MS` | 150 | WebSocket push interval |
 | `WIFI_SSID` | `"Sensing"` | Soft-AP network name |
 | `WIFI_PASS` | `"defence123"` | Soft-AP password |
+
+---
+
+## License
+
+GNU Affero General Public License v3.0, see [`LICENSE`](LICENSE).
+
+---
+
+*Keywords: ESP32, mmWave radar, LD2450, WiFi CSI, channel state information, presence detection, through-wall sensing, sensor fusion, servo turret, FreeRTOS, PlatformIO, embedded, C++.*
